@@ -1,0 +1,9 @@
+from random import randrange
+
+r=randrange(1000)
+while True:
+    i=int(input())
+    if r==i:
+        print('you win')
+        break
+    print('smaller' if i>r else 'bigger')
